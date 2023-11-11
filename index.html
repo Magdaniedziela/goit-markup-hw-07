@@ -21,6 +21,7 @@
     />
   </head>
   <body>
+    <!---HEADER---->
     <header class="header">
       <div class="container container-header">
         <nav class="logo-nav">
@@ -63,8 +64,21 @@
             </li>
           </ul>
         </address>
+        <menu class="menu-hamburger">
+          <button
+            type="button"
+            class="button-hamburger menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg width="32" height="22">
+              <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+            </svg>
+          </button>
+        </menu>
       </div>
     </header>
+    <!----EFFECTIVE SOLUTIONS----->
 
     <main>
       <section class="section main-title">
@@ -75,6 +89,7 @@
           </button>
         </div>
       </section>
+      <!----MAIN GOALS-->
 
       <section class="section">
         <div class="container">
@@ -132,6 +147,7 @@
           </ul>
         </div>
       </section>
+      <!-----WHAT WRE WE DOING----->
       <section class="section-what-are-we-doing">
         <div class="container">
           <h2 class="what-are-we-doing-title">What are we doing</h2>
@@ -167,7 +183,7 @@
           </ul>
         </div>
       </section>
-      <!--Our team-->
+      <!----Our team----->
       <section class="section our-team-background">
         <div class="container">
           <h2 class="our-team-title">Our Team</h2>
@@ -176,6 +192,7 @@
               <img
                 class="images"
                 src="./images/teamcard1(2).jpg"
+                srcset="./images/teamcard1(2).jpg x1, ./images/teamcard(2).jpg@x2 x2"
                 alt="man in a blue shirt"
                 width="264"
                 height="260"
@@ -219,6 +236,7 @@
               <img
                 class="images"
                 src="./images/tomford.jpg"
+                srcset="./images/tomford.jpg x1 ./images.tomford.jpg@x2 x2"
                 alt="smiling man in a shirt"
                 width="264"
                 height="260"
@@ -262,6 +280,7 @@
               <img
                 class="images"
                 src="images/camilagarcia.jpg"
+                srcset="./images/camilagarcia.jpg x1, ./images/camilagarcia@x2 x2"
                 alt="woman in a pink jumper"
                 width="264"
                 height="260"
@@ -305,6 +324,7 @@
               <img
                 class="images"
                 src="./images/danielwilson.jpg"
+                srcset="./images/danielwilson.jpg x1, ./images/danielwilson@x2 x2"
                 alt="man in a nude shirt"
                 width="264"
                 height="260"
