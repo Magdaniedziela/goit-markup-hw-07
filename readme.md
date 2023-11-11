@@ -1,1 +1,1 @@
-https://magdaniedziela.github.io/goit-markup-hw-06/
+https://magdaniedziela.github.io/goit-markup-hw-07/
